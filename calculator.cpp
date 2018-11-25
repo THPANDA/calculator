@@ -2,9 +2,9 @@
 #include <conio.h>
 using namespace std;
 
-class cal{
+class function{
     public:
-    void  function()
+    void  Body()
     int Add(int x,int y){
         int ans =x+y;
         return ans;
@@ -26,6 +26,9 @@ class cal{
 int main(){
     int func;
     int x,y;
+
+    functions key;
+    key.Body();
 
     cout << "What function do you want to use?" << endl;
     cout << "1 - Addition" << endl;
