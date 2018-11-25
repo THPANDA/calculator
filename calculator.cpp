@@ -1,10 +1,9 @@
 #include <iostream>
-#include <conio.h>
 using namespace std;
 
 class function{
     public:
-    void  Body()
+    void  Body();
     int Add(int x,int y){
         int ans =x+y;
         return ans;
@@ -21,14 +20,13 @@ class function{
         int ans=x/y;
         return ans;
     }
-}
+};
 
 int main(){
     int func;
     int x,y;
 
-    functions key;
-    key.Body();
+    function key;
 
     cout << "What function do you want to use?" << endl;
     cout << "1 - Addition" << endl;
